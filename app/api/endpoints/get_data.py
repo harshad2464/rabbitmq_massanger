@@ -5,7 +5,7 @@ import json
 from bson import ObjectId
 from datetime import datetime
 
-# CONNECTION_STRING = "mongodb+srv://patilharshad:VgEyLG5StaSiFHLG@cluster.mongodb.net/rabbitmq_messages"
+# CONNECTION_STRING = "mongodb+srv://patilharshad:VgEy@cluster.mongodb.net/rabbitmq_messages"
 CONNECTION_STRING = "mongodb://localhost:27017/rabbitmq_messages"  
 
 client = MongoClient(CONNECTION_STRING)
