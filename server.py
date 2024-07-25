@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 from pymongo import MongoClient
 
-# CONNECTION_STRING = "mongodb+srv://patilharshad:VgEyLG5StaSiFHLG@cluster.mongodb.net/rabbitmq_messages"
+# CONNECTION_STRING = "mongodb+srv://patilharshad:VgEyL@cluster.mongodb.net/rabbitmq_messages"
 CONNECTION_STRING = "mongodb://localhost:27017/rabbitmq_messages"  
 
 client = MongoClient(CONNECTION_STRING)
