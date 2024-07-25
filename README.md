@@ -7,7 +7,7 @@
   - when a run client.py file then start pushing status to rabbitmq queue.
 
 # Server script:
-  - when a run server.py file then start comsuming messages from rabbitmq and storing in mongodb database.
+  - when a run server.py file then start consuming messages from rabbitmq and storing in mongodb database.
 
 # run api for getting status count:
   - install python packages using command "pip install -r requirements.txt"
