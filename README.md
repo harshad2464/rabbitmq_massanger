@@ -12,4 +12,4 @@
 # database mongodb:
   - install mongodb database.
   - create database and then collection.
-  - use thoes database for storing messages. 
+  - use this database for storing messages.
