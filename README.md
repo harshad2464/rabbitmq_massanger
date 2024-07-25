@@ -1,6 +1,10 @@
 # rabbitmq_massanger
+# install rabbitmq locally:
+  - download rabbitmq file and install it
+  - after installtion create queue for messages.
+    
 # Client script:
-  - when a run client.py file ten start pushing status to rabbitmq.
+  - when a run client.py file then start pushing status to rabbitmq queue.
 
 # Server script:
   - when a run server.py file then start comsuming messages from rabbitmq and storing in mongodb database.
